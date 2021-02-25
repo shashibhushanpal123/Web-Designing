@@ -1,0 +1,55 @@
+body{
+
+margin: 0;
+    padding: 0;
+
+}
+
+.blog
+{
+margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 105.6%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+    font-size: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial;
+    background:purple;
+    border: 2px solid #262626;
+    padding: 25px;
+    overflow: hidden;
+
+}
+
+.blog:before
+{
+
+    content: 'BLOG';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background:olive;
+    transition: .5s ease-in-out;
+    z-index: -1;
+
+}
+
+.blog:hover:before
+{
+
+    left: 0;
+    z-index: 1;
+
+}
+
+.blog:hover span
+{
+
+color: #fff;
+
+}
